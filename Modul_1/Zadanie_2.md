@@ -85,7 +85,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 | `-t nat`          | Работа с таблицей NAT                              |
 | `-A POSTROUTING`  | Добавление правила в цепочку POSTROUTING           |
 | `-o eth0`         | Применение к пакетам, исходящим через интерфейс eth0 |
-| `-j MASQUERADE`   | Подмена源ного IP-адреса на IP-адрес интерфейса eth0  |
+| `-j MASQUERADE`   | Подмена входного IP-адреса на IP-адрес интерфейса eth0  |
 
 ---
 
